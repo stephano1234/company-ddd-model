@@ -1,6 +1,6 @@
 import Customer from "../../../domain/customer/customer.entity";
 import CustomerRepository from "../../../domain/customer/repository/customer.repository.interface";
-import CustomerAssembler from "../shared/assembler/customer.assembler";
+import CustomerAssembler from "../shared/assembler/customer.repository.assembler";
 import CustomerModel from "./customer.repository.model";
 
 export default class CustomerRepositoryImpl implements CustomerRepository {

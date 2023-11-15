@@ -2,8 +2,8 @@ import Item from "../../../../domain/order/item.entity";
 import Order from "../../../../domain/order/order.entity";
 import ItemModel from "../../order/item.repository.model";
 import OrderModel from "../../order/order.repository.model";
-import CustomerAssembler from "./customer.assembler";
-import ProductAssembler from "./product.assembler";
+import CustomerAssembler from "./customer.repository.assembler";
+import ProductAssembler from "./product.repository.assembler";
 
 export default class OrderAssembler {
 

@@ -1,6 +1,6 @@
 import Product from "../../../domain/product/product.entity";
 import ProductRepository from "../../../domain/product/repository/product.repository.interface";
-import ProductAssembler from "../shared/assembler/product.assembler";
+import ProductAssembler from "../shared/assembler/product.repository.assembler";
 import ProductModel from "./product.repository.model";
 
 export default class ProductRepositoryImpl implements ProductRepository {

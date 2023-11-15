@@ -1,6 +1,6 @@
 import Order from "../../../domain/order/order.entity";
 import OrderRepository from "../../../domain/order/repository/order.repository.interface";
-import OrderAssembler from "../shared/assembler/order.assembler";
+import OrderAssembler from "../shared/assembler/order.repository.assembler";
 import CustomerModel from "../customer/customer.repository.model";
 import ProductModel from "../product/product.repository.model";
 import ItemModel from "./item.repository.model";
