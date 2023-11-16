@@ -3,9 +3,9 @@ import Address from "../address.value-object";
 import Customer from "../customer.entity";
 import CustomerAddressChanged from "./customer-address-changed.event";
 import CustomerCreated from "./customer-created.event";
-import EnviaConsoleLog1Handler from "../../shared/event/handler/envia-console-log-1.handler";
-import EnviaConsoleLog2Handler from "../../shared/event/handler/envia-console-log-2.handler";
-import EnviaConsoleLogHandler from "../../shared/event/handler/envia-console-log.handler";
+import EnviaConsoleLog1Handler from "./handler/envia-console-log-1.handler";
+import EnviaConsoleLog2Handler from "./handler/envia-console-log-2.handler";
+import EnviaConsoleLogHandler from "./handler/envia-console-log.handler";
 
 describe('Customer Events', () => {
 
